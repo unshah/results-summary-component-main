@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "HG Variable";
+    src: url(HankenGrotesk-VariableFont_wght.ttf);
+  } *{font-family: 'HG Variable';}
+
+body{
+    font-family: 'HG Variable';
+}
+
+p{
+    font-size: 18px;
+}
+
+.card{
+    width: 50%;
+    height: auto;
+    margin: 10% 25%;
+    border-radius: 2em;
+    border: 0 none;
+    box-shadow: 5px 5px 20px hsla(224, 30%, 27%, 0.212);
+}
+  
+.top row{
+    margin: 1em;
+}
+
+.ov-result{
+    text-align: center;
+    color: hsla(0, 0%, 100%, 1);
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%) );
+    border-radius: 2em;
+}
+    .ov-result h4{
+    margin: 1em;
+    color: hsla(0, 0%, 100%, 0.8);
+    }
+    .ov-result p{
+    color: hsla(0, 0%, 100%, 0.6);
+    }
+
+    .radialbg{
+        margin: 0% 25%;
+        background: radial-gradient(circle at 50% 0%, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+        border-radius: 50%;
+        padding: 0 1em;
+        height: 38%;
+        width: 50%;
+        padding: 15% 0;
+    }
+  
+        .radialbg h1{
+            font-weight: 800;
+            font-size: 4em;
+        }
+
+        .radial p{
+            color: hsla(0, 0%, 100%, 0.6);
+        }
+    
+    .ov-result h2{
+        margin: 1em;
+    } 
+    
+.desc{
+    margin: 0 20%;
+}
+
+.all-results{
+    color: hsl(224, 30%, 27%);
+    text-align: left;
+    padding: 2em;
+}
+.all-results h2{
+    color: hsl(224, 30%, 27%);
+    font-weight: 800;
+}
+
+.ind-res{
+    margin: 1em 0;
+}
+
+.resimage{
+    width:10px;
+    margin: 0 0.5em;
+}
+
+.reaction{
+    background: hsl(0, 100%, 67%, 0.1);
+    border-radius: 5px;
+    padding: 0.5em 0;
+    margin: 0 1em 0 0;
+}
+.reaction h5{
+    color: hsl(0, 100%, 67%);
+    margin: 0;
+}
+.score{
+    margin: 0 0.5em;
+}
+
+.memory{
+    background: hsla(39, 100%, 56%, 0.1);
+    border-radius: 5px;
+    padding: 0.5em 0;
+    margin: 1em 1em 0 0;
+}
+.memory h5{
+    color: hsl(39, 100%, 56%);
+    margin: 0;
+}
+
+.verbal{
+    background: hsla(166, 100%, 37%, 0.1);
+    border-radius: 5px;
+    padding: 0.5em 0;
+    margin: 1em 1em 0 0;
+}
+.verbal h5{
+    color: hsl(166, 100%, 37%);
+    margin: 0;
+}
+
+.visual{
+    background: hsla(234, 85%, 45%, 0.1);
+    border-radius: 5px;
+    padding: 0.5em 0;
+    margin: 1em 1em 0 0;
+}
+.visual h5{
+    color: hsl(234, 85%, 45%);
+    margin: 0;
+}
+
+.submit{
+    margin: 2em 1em 1em 0;
+}
+
+.btn-primary{
+    padding: 1em;
+    width: 100%;
+    border: 0 none;
+    border-radius: 40px;
+    background-color: hsl(224, 30%, 27%);
+    font-weight: 500;
+}
